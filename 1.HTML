@@ -25,18 +25,38 @@ li {
   display:inline;
   margin: 0px 3px;
 }
-figure, figcaption, p{
-  text-align:right;
-  width:600px;
-  margin: 20px auto 20px auto;
-  font-weight:normal;
-}
 a {
   color:black;
   text-decoration: none;
 }
 h1 {
   font-size:50px; text-align: center;
+}
+.entry {
+  width: 200px;
+  float: left;
+  margin:30px;
+  height: 240px;
+  background-image:url("image/shadow.png");
+  background-repeat:no-repeat;
+  background-position:bottom;
+}
+figure {
+  display:block;
+  width:200px;
+  height: 240px;
+  margin: 1px;
+  padding: 9px;
+  text-align:   font-family: Arial Verdana sans-serif;
+  left;
+}
+figure img {
+  width: 200px;
+  height: 240px;
+}
+figcaption {
+  background-image: url ("image.png") no repeat;
+  padding-left: 20px;
 }
 @media(max-width:800px){
   #nevigation{
@@ -52,8 +72,45 @@ h1 {
   <li><a href="Blog.html">Blog</a></li>
   <li><a href="Contact.html">Contact</a></li>
 </ul>
-<p><img src="homepage picture.jpg" alt="painting"><em>Spring Girl</em> 2019</p>
-<br><br>
-<p><em>&copy; Minah Yun. All rights Reserved. </em></p>
+<div class="entry">
+  <figure><img src="portfolio01.jpg" alt="Purple flowers" />
+    <figcaption>Purple flowers</figcaption>
+  </figure>
+</div>
+<div class="entry">
+  <figure><img src="portfolio03.jpg" alt="Dog with flowers" />
+    <figcaption>Dog with flowers</figcaption>
+  </figure>
+</div>
+<div class="entry">
+  <figure><img src="portfolio05.jpg" alt="Emerald lake in Canada" />
+    <figcaption>Emerald lake in Canada</figcaption>
+  </figure>
+</div>
+<div class="entry">
+  <figure><img src="portfolio06.jpg" alt="Amsterdam 01" />
+    <figcaption>Amsterdam 01</figcaption>
+  </figure>
+</div>
+<div class="entry">
+  <figure><img src="portfolio17.jpg" alt="Spring girl" />
+    <figcaption>Spring girl</figcaption>
+  </figure>
+</div>
+<div class="entry">
+  <figure><img src="portfolio16.jpg" alt="Babybears in Canada" />
+    <figcaption>Babybears in Canada</figcaption>
+  </figure>
+</div>
+<div class="entry">
+  <figure><img src="portfolio13.jpg" alt="Dog with purple flowers" />
+    <figcaption>Dog with purple flowers</figcaption>
+  </figure>
+</div>
+<div class="entry">
+  <figure><img src="portfolio11.jpg" alt="Victoria" />
+    <figcaption>Victoria</figcaption>
+  </figure>
+</div>
 </body>
 </html>
